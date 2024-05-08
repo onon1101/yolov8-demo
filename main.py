@@ -6,7 +6,7 @@ import torch
 # print(torch.backends.mps.is_available())
 
 # cap = cv2.VideoCapture("dogs.mp4")
-cap = cv2.VideoCapture("t.mp4")
+cap = cv2.VideoCapture("car.mp4")
 model = YOLO("yolov8m.pt")
 
 while True:
